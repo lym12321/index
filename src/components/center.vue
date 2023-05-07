@@ -30,7 +30,7 @@
               <img
                 :src="
                   item.icon == ''
-                    ? 'http://img.cdn.esunr.xyz/Aquarium.png'
+                    ? 'https://blog.coraa.cn/img/avatar.png'
                     : item.icon
                 "
               />
@@ -41,7 +41,7 @@
     </div>
     <div class="footer" v-if="$config.FOOTER_INFO">
       <i class="mdi mdi-fountain-pen-tip"></i> Designed By
-      <a href="https://github.com/EsunR/Blog-Index">EsunR</a>
+      <a href="https://github.com/EsunR/Blog-Index">EsunR</a> | Modified By <a href="https://github.com/lym12321">Rxy</a>
     </div>
   </div>
 </template>
