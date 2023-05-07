@@ -34,31 +34,43 @@ const PAGES_DATA = [
     title: "Develop",
     subtitle: "实验性站点",
     url: "https://dev.coraa.cn/",
-    icon: ""
+    icon: "./favicon.ico"
   },
   {
     pageId: 3,
-    sortId: 2,
-    title: "Mail",
-    subtitle: "发邮件",
-    url: "mailto:i@coraa.cn",
-    icon: ""
+    sortId: 1,
+    title: "Alist",
+    subtitle: "收集一些可能有用的小玩意",
+    url: "https://cloud.coraa.cn/",
+    icon: "https://static.coraa.cn/img/alist.svg"
   },
   {
     pageId: 4,
-    sortId: 2,
-    title: "Github",
-    subtitle: "世界上最大的同性交友平台",
-    url: "https://github.com/lym12321",
-    icon: ""
+    sortId: 1,
+    title: "Timer",
+    subtitle: "高考倒计时",
+    url: "http://to.ac.cn/"
   },
   {
     pageId: 5,
     sortId: 2,
+    title: "Mail",
+    subtitle: "发邮件",
+    url: "mailto:i@coraa.cn",
+  },
+  {
+    pageId: 6,
+    sortId: 2,
+    title: "Github",
+    subtitle: "世界上最大的同性交友平台",
+    url: "https://github.com/lym12321",
+  },
+  {
+    pageId: 7,
+    sortId: 2,
     title: "Bilibili",
     subtitle: "小破站",
     url: "https://space.bilibili.com/264923978",
-    icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
