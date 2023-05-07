@@ -54,7 +54,6 @@
       <a
         target="_blank"
         href="https://beian.miit.gov.cn/"
-        v-if="recordNumber"
       >{{ $config.RECORD_NUMBER }}</a>
       /
       <a
