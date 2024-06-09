@@ -37,21 +37,6 @@ const PAGES_DATA = [
     icon: "./favicon.ico"
   },
   {
-    pageId: 3,
-    sortId: 1,
-    title: "Alist",
-    subtitle: "收集一些可能有用的小玩意",
-    url: "https://cloud.coraa.cn/",
-    icon: "https://static.coraa.cn/img/alist.svg"
-  },
-  {
-    pageId: 4,
-    sortId: 1,
-    title: "Timer",
-    subtitle: "高考倒计时",
-    url: "http://to.ac.cn/"
-  },
-  {
     pageId: 5,
     sortId: 2,
     title: "Mail",
